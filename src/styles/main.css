@@ -1,0 +1,34 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+
+:root {
+  --color-primary: #ec4755;
+  --color-secondary: #a12c34;
+  --color-tertiaty: #99a0a3;
+  --color-bronze: #cd7f32; /* Bronze color */
+  --color-gold: #ffdb58;   /* Gold color */
+  --color-silver: #010000; /* Silver color */
+}
+
+a { 
+  @apply text-red-700;
+}
+
+a:hover {
+  @apply border-b-2 border-red-700;
+}
+
+
+
+.content p {
+  @apply my-6;
+}
+
+.content ul {
+  @apply my-6;
+}
+.bg-primary {
+  @apply bg-black;
+}

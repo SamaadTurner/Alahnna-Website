@@ -1,0 +1,141 @@
+{
+  "company": {
+    "name": "React landing page 2021",
+    "logo": "/assets/images/logo1.png"
+  },
+  "navigation": [
+    {
+      "name": "Q/A",
+      "href": "product"
+    },
+    {
+      "name": "About",
+      "href": "features"
+    },
+    {
+      "name": "Pricing",
+      "href": "pricing"
+    }
+  ],
+  "callToAction": {
+    "name": "Email Us",
+    "href": "Lalaphotobooth@hotmail.com",
+    "text": "Book Now"
+  },
+  "mainHero": {
+    "title": "LaLa",
+    "subtitle": "Photo Booth",
+    "description": "Capture the joy of the moment with our digital Photo Booth experience in Tacoma, WA. Elevate your events with fun and memorable snapshots, offering a unique blend of technology and nostalgia. Perfect for weddings, parties, and corporate gatherings, our Photo Booth adds a touch of excitement to every occasion. Book us now to turn your special moments into timeless memories!",
+    "img": "/assets/images/mainPhoto.jpg"
+  },
+  "product": {
+    "title": "Q/A",
+    "items": [
+      {
+        "title": "What types of events do your photo booths cater to?",
+        "description": "We cater to all types of events like weddings, birthday parties, cooperate events and much more.",
+        "img": "/assets/images/product1.jpg"
+      },
+      {
+        "title": "Can I customize the photo booth experience for my specific event theme?",
+        "description": "Yes! We edit and customize the border and digital photo strip to your event.",
+        "img": "/assets/images/product2.jpg"
+      },
+      {
+        "title": "What features and props are included in your photo booth packages?",
+        "description": "Regular props are included in the package, if you want props to fit your theme there is an extra cost.",
+        "img": "/assets/images/product2.jpg"
+      },
+      {
+        "title": "Can the Photo Booth be used outdoors? ",
+        "description": "Yes the Photo Booth can be used outdoors!",
+        "img": "/assets/images/product2.jpg"
+      }
+    ]
+  },
+  "features": {
+    "title": "Who am I? ",
+    "subtitle": "Alahnna Connolly",
+    "description": "A recent graduate of Central Washington University with a degree in Public Relations and a minor in Marketing. While completing my studies in 2023, I founded my Photo Booth business in late 2021, driven by my passion for creating memorable experiences. Having successfully executed over 30 events, I am dedicated to blending creativity and professionalism to add a touch of fun to every occasion. Let's capture your moments in style with my Photo Booth services!",
+    "image": "/assets/images/AlahnnaPhoto.jpg"
+  },
+  "pricing": {
+    "title": "Pricing",
+    "items": [
+      {
+        "name": "Bronze",
+        "price": "$190.00",
+        "priceDetails": "",
+        "features": [
+          "2 Hours",
+          "On-Site Attendant",
+          "Digital Custom Photo Strip",
+          "Props"
+        ]
+      },
+      {
+        "name": "Gold",
+        "price": "$400.00",
+        "priceDetails": "",
+        "features": [
+          "4 Hours",
+          "On-Site Attendant",
+          "Digital Custom Photo Strip",
+          "Props",
+          "Backdrop"
+        ]
+      },
+      {
+        "name": "Silver",
+        "price": "$290.00",
+        "priceDetails": "",
+        "features": [
+          "3 Hours",
+          "On-Site Attendant",
+          "Digital Custom Photo Strip",
+          "Props"
+        ]
+      },
+      {
+        "name": "All Packages Include",
+        "price": "",
+        "priceDetails": "",
+        "features": [
+          "Set Up / Break Down",
+          "Text/Email Direct Delivery",
+          "Unlimited Pictures, Boomerangs & GIFs",
+          "Text/Email Of All Photos After Event",
+          "Props To Theme"
+        ]
+      }
+    ]
+  },
+  "about": {
+    "sections": [
+      {
+        "name": "Something",
+        "href": "#",
+        "content": "It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout. The point of using Lorem Ipsum is that it has a more-or-less normal distribution of letters, as opposed to using 'Content here, content here', making it look like readable English."
+      },
+      {
+        "name": "Something",
+        "href": "#",
+        "content": "It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout. The point of using Lorem Ipsum is that it has a more-or-less normal distribution of letters, as opposed to using 'Content here, content here', making it look like readable English."
+      },
+      {
+        "name": "Something",
+        "href": "#",
+        "content": "It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout. The point of using Lorem Ipsum is that it has a more-or-less normal distribution of letters, as opposed to using 'Content here, content here', making it look like readable English."
+      },
+      {
+        "name": "Something",
+        "href": "#",
+        "content": "It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout. The point of using Lorem Ipsum is that it has a more-or-less normal distribution of letters, as opposed to using 'Content here, content here', making it look like readable English."
+      }
+    ],
+    "socialMedia": {
+      "instagram": "https://www.instagram.com/lalaaphotobooth/",
+      "facebook": "https://www.facebook.com/LaLaaphotobooth"
+    }
+  }
+}
