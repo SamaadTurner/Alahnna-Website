@@ -33,7 +33,7 @@ Object.defineProperty(exports, "__esModule", ({
 exports["default"] = void 0;
 var _interop_require_default = (__webpack_require__(648)/* ["default"] */ .Z);
 var _react = _interop_require_default(__webpack_require__(689));
-var _head = _interop_require_default(__webpack_require__(429));
+var _head = _interop_require_default(__webpack_require__(957));
 const statusCodes = {
     400: "Bad Request",
     404: "This page could not be found",
@@ -121,7 +121,7 @@ exports["default"] = Error; //# sourceMappingURL=_error.js.map
 
 /***/ }),
 
-/***/ 429:
+/***/ 957:
 /***/ ((module) => {
 
 module.exports = require("next/dist/shared/lib/head.js");
