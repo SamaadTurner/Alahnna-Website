@@ -5,7 +5,7 @@
   },
   "navigation": [
     {
-      "name": "Q/A",
+      "name": "Q&A",
       "href": "product"
     },
     {
@@ -26,10 +26,10 @@
     "title": "LaLa",
     "subtitle": "Photo Booth",
     "description": "Capture the joy of the moment with our digital Photo Booth experience in Tacoma, WA. Elevate your events with fun and memorable snapshots, offering a unique blend of technology and nostalgia. Perfect for weddings, parties, and corporate gatherings, our Photo Booth adds a touch of excitement to every occasion. Book us now to turn your special moments into timeless memories!",
-    "img": "/assets/images/mainPhoto.jpg"
+    "img": "/assets/images/NewMainPhoto.jpg"
   },
   "product": {
-    "title": "Q/A",
+    "title": "Q&A",
     "items": [
       {
         "title": "What types of events do your photo booths cater to?",
