@@ -9,15 +9,15 @@ const Pricing = () => {
 
   return (
     <section className={`bg-background py-8`} id="pricing">
-      <div className={`container mx-auto px-2 pt-4 pb-12 text-primary`}>
+      <div className={`container mx-auto px-2 pt-4 pb-12 text-black`}>
         <h1
-          className={`w-full my-2 text-5xl font-bold leading-tight text-center text-primary`}
+          className={`w-full my-2 text-5xl font-bold leading-tight text-center text-black`}
         >
           {title}
         </h1>
         <div className={`w-full mb-4`}>
           <div
-            className={`h-1 mx-auto bg-primary w-64 opacity-25 my-0 py-0 rounded-t`}
+            className={`h-1 mx-auto bg-black w-64 opacity-25 my-0 py-0 rounded-t`}
           ></div>
         </div>
         <div
@@ -63,13 +63,13 @@ const Pricing = () => {
             <div
               className={`flex-1 bg-background rounded-t rounded-b-none overflow-hidden shadow`}
             >
-              <div className={`w-full p-8 text-3xl font-bold text-center`}>
+              <div className={`w-full p-8 text-3xl font-bold text-center text-gold`}>
                 {secondPlan?.name}
               </div>
               <div
-                className={`h-1 w-full bg-primary my-0 py-0 rounded-t`}
+                className={`h-1 w-full bg-black my-0 py-0 rounded-t`}
               ></div>
-              <ul className={`w-full text-center text-base font-bold`}>
+              <ul className={`w-full text-center text-base font-bold text-gold`}>
                 {secondPlan?.features.map((feature) => (
                   <li
                     className={`border-b py-4`}
@@ -83,7 +83,7 @@ const Pricing = () => {
             <div
               className={`flex-none mt-auto bg-background rounded-b rounded-t-none overflow-hidden shadow p-6`}
             >
-              <div className={`w-full pt-6 text-4xl font-bold text-center`}>
+              <div className={`w-full pt-6 text-4xl font-bold text-center text-gold`}>
                 {secondPlan?.price}
                 <span className={`text-base`}> {secondPlan?.priceDetails}</span>
               </div>
@@ -92,10 +92,10 @@ const Pricing = () => {
 
           {/* Silver Plan */}
           <div
-            className={`flex flex-col w-5/6 lg:w-1/4 mx-auto lg:mx-0 rounded-none lg:rounded-l-lg bg-primary mt-4 text-silver`}
+            className={`flex flex-col w-5/6 lg:w-1/4 mx-auto lg:mx-0 rounded-none lg:rounded-l-lg bg-black mt-4 text-black`}
           >
             <div
-              className={`flex-1 bg-background text-gray-600 rounded-t rounded-b-none overflow-hidden shadow text-silver`}
+              className={`flex-1 bg-background text-gray-600 rounded-t rounded-b-none overflow-hidden shadow text-black`}
             >
               <div className={`p-8 text-3xl font-bold text-center border-b-4`}>
                 {thirdPlan?.name}
@@ -115,7 +115,7 @@ const Pricing = () => {
               className={`flex-none mt-auto bg-background rounded-b rounded-t-none overflow-hidden shadow p-6`}
             >
               <div
-                className={`w-full pt-6 text-3xl text-gray-600 font-bold text-center text-silver`}
+                className={`w-full pt-6 text-3xl text-gray-600 font-bold text-center text-black`}
               >
                 {thirdPlan?.price}
                 <span className={`text-base`}> {thirdPlan?.priceDetails}</span>
