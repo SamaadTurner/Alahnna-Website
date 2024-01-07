@@ -15,7 +15,12 @@
     {
       "name": "Pricing",
       "href": "pricing"
+    },
+    {
+      "name": "Book Now",
+      "href": "contact"
     }
+
   ],
   "callToAction": {
     "name": "Email Us",

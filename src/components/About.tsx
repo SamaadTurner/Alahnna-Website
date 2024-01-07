@@ -13,6 +13,7 @@ const About = () => {
     <div
       id="features"
       className="mx-auto container xl:px-20 lg:px-12 sm:px-6 px-4 py-12"
+      style={{display: 'flex', flexDirection: 'row', alignItems: 'space-between'}}
     >
       <div className="flex items-center gap-x-8 mt-6">
         <a
