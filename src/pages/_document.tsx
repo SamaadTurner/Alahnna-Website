@@ -1,4 +1,5 @@
 import Document, { Html, Head, Main, NextScript } from 'next/document';
+import Script from 'next/script'
 
 import { AppConfig } from '../utils/AppConfig';
 
@@ -11,6 +12,8 @@ class MyDocument extends Document {
         <body>
           <Main />
           <NextScript />
+          {/* <Script src="../../node_modules/tw-elements/dist/js/tw-elements.umd.min.js"/>
+          <Script src="../../node_modules/tw-elements/dist/js/tw-elements.es.min.js"/> */}
         </body>
       </Html>
     );
