@@ -1,5 +1,4 @@
 import React from 'react';
-
 import config from '../config/index.json';
 
 const Features = () => {
@@ -9,7 +8,7 @@ const Features = () => {
   return (
     <div className={`py-12 bg-background`} id="features">
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
-        <div className="lg:text-center">
+        <div className="text-center"> {/* Center the content */}
           <h2
             className={`text-base text-primary font-semibold tracking-wide uppercase`}
           >
@@ -26,7 +25,7 @@ const Features = () => {
         <div className="mt-10">
           <div className="relative">
             <img
-              className="w-1/2 h-auto mx-auto rounded-lg" // Adjust the width here (e.g., w-1/2 for 50% width)
+              className="w-3/4 h-auto mx-auto rounded-lg" // Adjust the width here (e.g., w-1/2 for 50% width)
               src={image}
               alt="Alahnna Connolly"
             />
