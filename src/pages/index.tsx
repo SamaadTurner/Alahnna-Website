@@ -36,7 +36,10 @@ const App = () => {
         <Gallery />
         <Canvas />
         <Pricing />
+        <Canvas />
         <Contact />
+        <Canvas />
+        <About />
         <Analytics />
       </div>
     </ThemeProvider>

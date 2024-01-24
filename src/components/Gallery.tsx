@@ -1,6 +1,4 @@
 import { Carousel } from "@material-tailwind/react";
-import type { CarouselProps } from "@material-tailwind/react";
-
 
 export function Gallery() {
   return (
