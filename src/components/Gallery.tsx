@@ -81,7 +81,7 @@ function NextButton({ handleNext, activeIndex }: { handleNext: () => void; activ
     <>
       <button
         onClick={handleNext}
-        className={`absolute right-0 top-1/2 z-10 w-10 h-10 text-black rounded-full outline-none focus:outline-none transform -translate-y-1/2 ${
+        className={`absolute right-20 top-1/2 z-10 w-10 h-10 text-black rounded-full outline-none focus:outline-none transform -translate-y-1/2 ${
           isLastPhoto ? 'opacity-50' : 'opacity-100 cursor-pointer'
         }`}
         disabled={isLastPhoto}
@@ -96,7 +96,7 @@ function PrevButton({ handlePrev }: { handlePrev: () => void }) {
   return (
     <button 
       onClick={handlePrev} 
-      className="absolute left-0 top-1/2 z-10 w-10 h-10 text-black rounded-full outline-none focus:outline-none transform -translate-y-1/2"
+      className="absolute left-20 top-1/2 z-10 w-10 h-10 text-black rounded-full outline-none focus:outline-none transform -translate-y-1/2"
     >
       <ChevronLeftIcon className="w-10 h-10" />
     </button>
